@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class GPS : MonoBehaviour {
 
@@ -7,6 +8,7 @@ public class GPS : MonoBehaviour {
 		API.instance.SetOutput("x", gameObject.transform.position.x);
 		API.instance.SetOutput("y", gameObject.transform.position.y);
 		API.instance.SetOutput("z", gameObject.transform.position.z);
+		API.instance.SetOutput("timestamp", System.DateTime.Now);
 	}
 
 }
