@@ -58,7 +58,8 @@ def cycle(model):
     anomalyLikelihood = anomalyLikelihoodHelper.anomalyProbability(
       random.random(), anomalyScore
     )
-    print time, xyz, radius, anomalyScore, anomalyLikelihood
+    # print time, xyz, radius, anomalyScore, anomalyLikelihood
+    print anomalyScore, anomalyLikelihood
 
 
 
