@@ -10,11 +10,11 @@ import model_params
 
 
 
-def calculateRadius(position1, position2, time1, time2, minRadius=5):
+def calculateRadius(position1, position2, time1, time2, scale=0.35):
   positionDelta = np.linalg.norm(position2 - position1)
   timeDelta = time2 - time1
   speed = positionDelta / timeDelta if timeDelta > 0 else 0
-  return max(int(round(speed)), minRadius)
+  return int(round(speed * scale))
 
 
 

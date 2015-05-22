@@ -167,7 +167,7 @@ MODEL_PARAMS = {
 
             # Initial Permanence
             # TODO: need better explanation
-            'initialPerm': 0.21,
+            'initialPerm': 0.31,
 
             # Connected Permanence
             'connectedPerm': 0.5,
