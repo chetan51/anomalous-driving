@@ -12,11 +12,11 @@ A demo of anomaly detection using NuPIC in a Unity simulation.
 
 1. Run Unity API proxy server:
 
-    python unity-api/proxy-server/run.py
+        python unity-api/proxy-server/run.py
 
 2. Run anomaly detection model:
 
-    python anomalous-driving/model/run.py
+        python anomalous-driving/model/run.py
 
 3. Run `simulation` in Unity.
 
