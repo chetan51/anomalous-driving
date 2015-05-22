@@ -18,6 +18,6 @@ A demo of anomaly detection using NuPIC in a Unity simulation.
 
         python anomalous-driving/model/run.py
 
-3. Run `simulation` in Unity.
+3. Open `simulation` in Unity. Then open `Scenes/Car`, and run.
 
 If you want to see a visualization of the anomalies in the simulation, [enable Gizmos](http://www.attiliocarotenuto.com/83-articles-tutorials/unity/297-unity-3-visual-debugging-using-gizmos) in the editor.
