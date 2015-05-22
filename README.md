@@ -2,6 +2,8 @@
 
 A demo of anomaly detection using NuPIC in a Unity simulation.
 
+(Model code adapted from [mine-hack](https://github.com/nupic-community/mine-hack).)
+
 ## Requirements
 
 - [Unity](https://unity3d.com/)
